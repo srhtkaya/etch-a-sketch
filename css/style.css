@@ -1,0 +1,54 @@
+@font-face {
+  font-family: 'B612';
+  font-style: normal;
+  font-weight: 400;
+  src: local('B612 Regular'), local('B612-Regular'), url(https://fonts.gstatic.com/s/b612/v1/3JnySDDxiSz36j6yHA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'B612';
+  font-style: normal;
+  font-weight: 700;
+  src: local('B612 Bold'), local('B612-Bold'), url(https://fonts.gstatic.com/s/b612/v1/3Jn9SDDxiSz34oWXDDeBSQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://fonts.gstatic.com/s/opensans/v15/mem8YaGs126MiZpBA-UFVZ0e.ttf) format('truetype');
+}
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+.header {
+  margin: 30px auto;
+  text-align: center;
+}
+.main-heading {
+  font-family: 'B612', sans-serif;
+  font-weight: 700;
+}
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(32, 20px);
+  grid-template-rows: repeat(32, 20px);
+  width: 640px;
+  height: 640px;
+  margin: 0 auto;
+}
+.item {
+  border: 0.5px solid black;
+  width: 19px;
+  height: 19px;
+  margin: 0;
+}
+.form {
+  width: 100%;
+  height: 20px;
+  text-align: center;
+  margin: 30px;
+}
+.form .input {
+  height: 20px;
+  width: 200px;
+  text-indent: 10px;
+}
