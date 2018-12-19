@@ -28,17 +28,17 @@ html {
   font-weight: 700;
 }
 .main-container {
-  display: grid;
-  grid-template-columns: repeat(32, 20px);
-  grid-template-rows: repeat(32, 20px);
+  line-height: 0;
   width: 640px;
   height: 640px;
   margin: 0 auto;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
 }
 .item {
-  border: 0.5px solid black;
-  width: 19px;
-  height: 19px;
+  display: inline-block;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.7);
+  border-right: 1px solid rgba(0, 0, 0, 0.7);
   margin: 0;
 }
 .form {
